@@ -1,0 +1,29 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+header {
+  background-color: #20232a;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav button {
+  margin: 0 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+main {
+  padding: 1rem;
+}
+.hidden {
+  display: none;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #20232a;
+  color: white;
+}

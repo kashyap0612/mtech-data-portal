@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M.Tech Data Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>M.Tech Central: Cutoffs & Placements</h1>
+    <nav>
+      <button onclick="showSection('cutoff')">NIT Cutoffs</button>
+      <button onclick="showSection('placement')">Placements</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="cutoff" class="data-section">
+      <h2>Cutoff Data</h2>
+      <p>Coming soon: CSV-based NIT-wise cutoffs.</p>
+    </section>
+    <section id="placement" class="data-section hidden">
+      <h2>Placement Data</h2>
+      <p>Coming soon: Stream-wise placement reports.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 infralord.dev</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
